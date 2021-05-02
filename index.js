@@ -22,3 +22,4 @@ let formData = {
     .then(json => (document.body.innerHTML = json.id))
     .catch(error => (document.body.innerHTML = error.message));
 }
+
